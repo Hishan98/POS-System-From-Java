@@ -187,8 +187,6 @@ public class Mew_MainMenu extends javax.swing.JFrame {
             }
         });
         btn_user.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel37.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hishan\\Desktop\\java\\Icons\\User Account_60px.png")); // NOI18N
         btn_user.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 60, 64));
 
         jLabel41.setFont(new java.awt.Font("Source Sans Pro Semibold", 0, 20)); // NOI18N
@@ -209,8 +207,6 @@ public class Mew_MainMenu extends javax.swing.JFrame {
             }
         });
         btn_report.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel42.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hishan\\Desktop\\java\\Icons\\Doughnut Chart_60px.png")); // NOI18N
         btn_report.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 60, 64));
 
         jLabel43.setFont(new java.awt.Font("Source Sans Pro Semibold", 0, 20)); // NOI18N
@@ -231,8 +227,6 @@ public class Mew_MainMenu extends javax.swing.JFrame {
             }
         });
         btn_home.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel44.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hishan\\Desktop\\java\\Icons\\Home_48px.png")); // NOI18N
         btn_home.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 53, 64));
 
         jLabel55.setFont(new java.awt.Font("Source Sans Pro Semibold", 0, 20)); // NOI18N
@@ -248,8 +242,6 @@ public class Mew_MainMenu extends javax.swing.JFrame {
             }
         });
         btn_settings.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel57.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hishan\\Desktop\\java\\Icons\\settings_48px.png")); // NOI18N
         btn_settings.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 60, 64));
 
         jLabel59.setFont(new java.awt.Font("Source Sans Pro Semibold", 0, 20)); // NOI18N
@@ -301,8 +293,6 @@ public class Mew_MainMenu extends javax.swing.JFrame {
         jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("The JuiCe BaR");
         jPanel11.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 20, -1, -1));
-
-        jLabel39.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hishan\\Desktop\\java\\Icons\\coconut_96px.png")); // NOI18N
         jPanel11.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 10, 100, 90));
 
         btn_logout.setBackground(new java.awt.Color(41, 53, 65));
@@ -311,8 +301,6 @@ public class Mew_MainMenu extends javax.swing.JFrame {
                 btn_logoutMousePressed(evt);
             }
         });
-
-        jLabel38.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hishan\\Desktop\\java\\Icons\\Male User_70px.png")); // NOI18N
 
         jLabel40.setFont(new java.awt.Font("Source Sans Pro Semibold", 0, 20)); // NOI18N
         jLabel40.setForeground(new java.awt.Color(255, 255, 255));
@@ -1362,8 +1350,6 @@ public class Mew_MainMenu extends javax.swing.JFrame {
         jLabel79.setForeground(new java.awt.Color(255, 255, 255));
         jLabel79.setText("Clear Cart");
         btn_clear_cart.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 30, -1, -1));
-
-        jLabel84.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hishan\\Desktop\\java\\Icons\\Price_50px.png")); // NOI18N
         btn_clear_cart.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 60, 64));
 
         jPanel4.add(btn_clear_cart, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 230, 180, 80));
@@ -1376,8 +1362,6 @@ public class Mew_MainMenu extends javax.swing.JFrame {
             }
         });
         btn_print.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel80.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hishan\\Desktop\\java\\Icons\\Price_50px.png")); // NOI18N
         btn_print.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 60, 64));
 
         jLabel81.setFont(new java.awt.Font("Source Sans Pro Semibold", 0, 20)); // NOI18N
@@ -1400,8 +1384,6 @@ public class Mew_MainMenu extends javax.swing.JFrame {
         jLabel85.setForeground(new java.awt.Color(255, 255, 255));
         jLabel85.setText("Add To Cart");
         btn_add_cart.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, -1, -1));
-
-        jLabel86.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hishan\\Desktop\\java\\Icons\\Price_50px.png")); // NOI18N
         btn_add_cart.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 60, 64));
 
         jPanel4.add(btn_add_cart, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 180, 80));
@@ -1610,7 +1592,7 @@ public class Mew_MainMenu extends javax.swing.JFrame {
                     String summation="Select SUM(price) FROM report where date=?";
                     PreparedStatement querysum=con.prepareStatement(summation);
                     querysum.setDate(1,startDate);
-                    JOptionPane.showMessageDialog(null,summation); 
+                    //JOptionPane.showMessageDialog(null,summation); 
                     
                     
 

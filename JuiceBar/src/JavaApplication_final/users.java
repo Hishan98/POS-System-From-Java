@@ -49,6 +49,8 @@ public class users extends javax.swing.JFrame {
         try{
             con = a.connect();
             Statement st=con.createStatement();
+            
+            
             String sql="SELECT * FROM login WHERE `sno`='"+current+"'";
             
             ResultSet rs=st.executeQuery(sql);
